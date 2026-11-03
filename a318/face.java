@@ -1,3 +1,19 @@
+/
+Aim
+To write a Java Applet program to draw a human face using Graphics class methods such as drawOval(), fillOval() and fillArc().
+2. Algorithm
+1. Start the program.
+2. Import the AWT and Applet packages.
+3. Create a class named face that extends the Applet class.
+4. Override the paint(Graphics g) method.
+5. Use drawOval() to draw the face, eyes and ears.
+6. Use fillOval() to draw the eyeballs and nose.
+7. Use fillArc() to draw the mouth.
+8. Display the human face.
+9. Stop the program.//
+
+  PROGRAM:
+  
 import java.awt.*; 
 import java.io.*; 
 import java.applet.*;
@@ -19,3 +35,4 @@ g.drawOval(25,92,15,30);
 g.drawOval(160,92,15,30);
 }
 }
+
